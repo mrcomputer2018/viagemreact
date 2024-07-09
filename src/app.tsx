@@ -13,8 +13,8 @@ export function App() {
                     Convide seus amigos e planeje sua próxima viagem!
                 </p>
 
-                <div className="h-16 px-4 bg-zinc-900 flex flex-row items-center shadow-shape">
-                    <div className="flex flex-row justify-center items-center gap-2 flex-1">
+                <div className="h-16 px-4 bg-zinc-900 flex flex-row items-center justify-center shadow-shape gap-3">
+                    <div className="flex flex-row justify-start items-center gap-2 flex-1">
                         <MapPin className="text-zinc-400 size-5" />
 
                         <input 
@@ -30,7 +30,7 @@ export function App() {
                         <Calendar className="text-zinc-400 size-5" />
 
                         <input 
-                        className="placeholder-zinc-400 bg-transparent text-lg"
+                        className="placeholder-zinc-400 bg-transparent text-lg w-40"
                         type="text" 
                         placeholder="Quando?"
                         value={date}
