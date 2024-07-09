@@ -18,7 +18,7 @@ export function App() {
                         <MapPin className="text-zinc-400 size-5" />
 
                         <input 
-                        className="placeholder-zinc-400 bg-transparent text-lg"
+                        className="placeholder-zinc-400 bg-transparent text-lg outline-none"
                         type="text" 
                         placeholder="Para onde você vai?"
                         value={destination}
@@ -30,7 +30,7 @@ export function App() {
                         <Calendar className="text-zinc-400 size-5" />
 
                         <input 
-                        className="placeholder-zinc-400 bg-transparent text-lg w-40"
+                        className="placeholder-zinc-400 bg-transparent text-lg w-40 outline-none"
                         type="text" 
                         placeholder="Quando?"
                         value={date}
