@@ -13,8 +13,8 @@ export function App() {
                     Convide seus amigos e planeje sua próxima viagem!
                 </p>
 
-                <div className="h-16 px-4 bg-zinc-900 flex flex-row justify-between items-center shadow-shape">
-                    <div className="flex flex-row justify-center items-center gap-1">
+                <div className="h-16 px-4 bg-zinc-900 flex flex-row items-center shadow-shape">
+                    <div className="flex flex-row justify-center items-center gap-2 flex-1">
                         <MapPin className="text-zinc-400 size-5" />
 
                         <input 
@@ -26,7 +26,7 @@ export function App() {
                         />
                     </div>
 
-                    <div className="flex flex-row justify-center items-center gap-1">
+                    <div className="flex flex-row justify-center items-center gap-2">
                         <Calendar className="text-zinc-400 size-5" />
 
                         <input 
@@ -41,7 +41,7 @@ export function App() {
                     <div className="h-full flex flex-row justify-center items-center">
                         <button 
                         className="bg-lime-300 text-lime-950 rounded-lg py-2 px-4
-                        flex flex-row items-center justify-center gap-1">
+                        flex flex-row items-center justify-center gap-2">
                             Continuar
                             <ArrowRight className="text-lime-950 size-5" />
                         </button>
