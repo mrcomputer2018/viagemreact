@@ -10,7 +10,7 @@ export function App() {
         <div className="w-full h-screen flex flex-col justify-center items-center">
             <div className="max-w-3xl w-full px-6 text-center rounded-xl space-y-10">
                 <p className="text-zinc-300 text-lg">
-                    Convide seus amigos e planeje sua próxima viagem!
+                    Convide seus amigos e planeje sua próxima viagem!!!!
                 </p>
 
                 <div className="h-16 px-4 bg-zinc-900 flex flex-row items-center justify-center shadow-shape gap-3">
